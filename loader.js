@@ -12,5 +12,6 @@ server.listen(port, function() {
 })
 
 server.use(function(req, res, next) {
-  res.send('it Works')
+  //res.send('it Works')
+  next()
 })
