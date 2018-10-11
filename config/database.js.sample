@@ -2,7 +2,7 @@
 const mongoose = require( 'mongoose' );
 
 // URL do banco
-const dbURI = 'mongodb://34.229.232.161/db_finance';
+const dbURI = 'mongodb://IP_ADDRESS/db_finance';
 
 // Conecta ao banco com variavel global (avaliar se esse é o melhor método)
 mongoose.connect(dbURI);
